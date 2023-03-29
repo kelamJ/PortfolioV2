@@ -31,8 +31,7 @@ header {
 }
 
 .logo {
-    font-size: 2em;
-    color: #fff;
+    width: 15em;
     user-select: none;
 }
 
