@@ -18,6 +18,54 @@ body {
     background-position: center;
 }
 
+.hero .social-icon a {
+    display: inline-block;
+    color: white;
+    transition: all .50s ease;
+    margin-top: 5px;
+}
+
+.hero {
+    height: 100%;
+    width: 65%;
+    min-height: 100vh;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+    padding-left: 2em;
+}
+
+.hero h1 {
+    font-size: 3em;
+}
+
+.hero p {
+    font-size: 1.5em;
+}
+
+.hero a {
+    display: inline-block;
+    color: white;
+    background: #4d9559;
+    border: 1px solid transparent;
+    padding: 12px 30px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 30px;
+    text-transform: uppercase;
+    transition: all .55s ease;
+}
+
+.hero a:hover {
+    background: transparent;
+    border: 1 px solid white;
+    transform: translateX(8px);
+}
+
+
 header {
     position: fixed;
     top: 0;
