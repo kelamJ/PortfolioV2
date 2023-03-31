@@ -1,0 +1,29 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleGame.css">
+    <title>Mes Projets</title>
+</head>
+<body>
+    <div id="end-menu">
+        <h1>Perdu !</h1>
+        <p>Score: <span id="end-score"></span></p>
+        <p>Record: <span id="best-score"></span></p>
+        <button id="restart-button">restart</button>
+    </div>
+    <div id="game-container">
+        <canvas id="game-canvas" width="400" height="600"></canvas>
+        <div id="score-display">0</div>
+    </div>
+
+    <h2 class="resume">Appuyer sur la touche espace pour voler et battre votre record !</h2>
+
+    <div class="home-button">
+        <button><a class="home-button" href="index.html">Retour à l'accueil</a> </button>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
